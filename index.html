@@ -6,17 +6,49 @@
     <title>The Rhysand API</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    <div class = "container">
-        <div class="title">
-            <h1>The Rhysand API</h1>
-            <p class="sub-title">A Sarah J Maas ACOTAR ACOMAS tribute</p>
-        <div class="image">
-            <img src="img/rhysbg.png" alt="Rhysand's image">        
-        </div>
+    <div class = "top-container1">
+        <div class="top-title">
+            <h1 class="top-heading">The Rhysand API</h1>
+            <p class="sub-title">A free REST API for Rhysand's quotes
+                from ACOTAR and ACOMAS by Sarah J Maas
+            </p>     
         </div>
     </div>
-    
+
+    <hr class="top">
+    <h2 style="text-align: center;">API Usage</h2>
+    <div class = 'middle-container1'>
+        <div class="card " style="width: 40rem;">
+            <div class="card-body ">
+                <h3 class="card-title">GET https://api/quote <br>
+                <h4>Access a random quote</h4></h3>
+                   <hr>
+              <p class="card-text">{<br>
+                "Hello, Feyre Darling"<br>
+                }<br>
+              </p>  
+              <hr>
+              <h3 class="card-title">GET https://api/quote/:id <br>
+                <h4>Returns a quote of queried id. Same quote all the time</h4></h3>
+              <hr>
+              <p class="card-text">{<br>
+                "You are my mate"<br>
+                }<br>
+              </p>  
+              </div>
+        </div>
+        
+ 
+              
+           
+    </div>
+  <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>

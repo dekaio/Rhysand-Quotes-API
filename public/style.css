@@ -1,11 +1,36 @@
+h2{
+    font-family: 'Shadows Into Light', cursive;  
+}
 img{
     text-align: center;
     width: 50%;
     height: 25%;
 }
-h1{
+.top-heading{
     margin-bottom: 0px;
     margin-top: 0px;
+    font-family: 'Merriweather';
+    font-size: 4rem;
+}
+.top-title{
+    margin-right: 200px;
+    margin-top: 5px; 
+    text-align: center;
+}
+.sub-title{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3.5rem;
+}
+
+.hr.top{
+    border-bottom: 3 px black;
+}
+.middle-container1{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
 }
 .section {
     padding: 1em;
@@ -14,26 +39,6 @@ h1{
     border-radius: 10px;
     margin-bottom: 1em;
 }
-.title{
-    float:right;  
-    margin-right: 200px;
-    margin-top: 5px; 
-    font-family: 'Sacramento';
-    font-size: 3.5rem;
-    text-align: center;
-}
-.sub-title{
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
-.title-right{
-    position: relative;
-    text-align: right;
-    margin-right: 200px;
-
-}
-
-.container1{
-    position: relative;
-    text-align: right;
+.is-marginless {
+    margin: 0 !important;
 }
