@@ -1,0 +1,24 @@
+{
+  "name": "rhysand-quotes-api",
+  "version": "1.0.0",
+  "description": "A Sarah J Maas ACOTAR ACOMAS fan API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dekaio/Rhysand-Quotes-API.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "express"
+  ],
+  "author": "dekaio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dekaio/Rhysand-Quotes-API/issues"
+  },
+  "homepage": "https://github.com/dekaio/Rhysand-Quotes-API#readme"
+}
