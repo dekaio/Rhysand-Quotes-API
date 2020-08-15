@@ -1,0 +1,39 @@
+img{
+    text-align: center;
+    width: 50%;
+    height: 25%;
+}
+h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.section {
+    padding: 1em;
+    font-size: 1.1em;
+    border: 2px solid var(--color-primary);
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+.title{
+    float:right;  
+    margin-right: 200px;
+    margin-top: 5px; 
+    font-family: 'Sacramento';
+    font-size: 3.5rem;
+    text-align: center;
+}
+.sub-title{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.title-right{
+    position: relative;
+    text-align: right;
+    margin-right: 200px;
+
+}
+
+.container1{
+    position: relative;
+    text-align: right;
+}
