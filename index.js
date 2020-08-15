@@ -11,7 +11,8 @@ app.use(express.static("public"))
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get("/",(req,res)=>{
-    res.send("Good");
+    res.sendFile(`${__dirname}/index.html`)
+   // res.send("Good");
 })
 app.listen(process.env.PORT || 3000, function(){
     console.log('Server is listening on port 3000');
@@ -31,6 +32,9 @@ app.get("/api/quote",(req,res)=>{
 })
 app.get("/api/quote/:id",(req,res)=>{
     getQuote(req,res);
+})
+app.get('/*',(req,res)=>{
+    res.redirect('/')
 })
 
 //module.exports = router;
