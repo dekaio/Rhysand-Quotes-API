@@ -6,5 +6,29 @@
     {
         "id":2,
         "line":"You are my mate"
-    }     
+    },
+    {
+        "id":3,
+        "line":"A thought for a thought, Feyre darling"
+    },
+    {
+        "id":4,
+        "line":"I’m always eager to learn what sparks your interest, Feyre darling."
+    },
+    {
+        "id":5,
+        "line":"Cruel, wicked thing"
+    } ,{
+        "id":6,
+        "line":"I am a High Lord, Feyre darling. Unwavering honor is built into my bones"
+    },
+    {
+        "id":6,
+        "line":"I will never stop being grateful to have you in my life, either, Feyre darling. And no matter what lies ahead"
+    },
+    {
+        "id":7,
+        "line":"No matter what lies ahead,we will face it together. Enjoy every moment of it together"
+    }
+
 ]
